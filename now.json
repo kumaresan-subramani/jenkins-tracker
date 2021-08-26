@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "builds": [{ "src": "server.js", "use": "@now/node-server" }],
+    "routes": [
+      {
+        "src": "/api/send",
+        "headers": {
+            "Access-Control-Allow-Origin": "*"
+          },
+        "dest": "/server.js",
+        "methods": ["POST", "OPTIONS"]
+      },
+      {
+        "src": "/api/login",
+        "headers": {
+            "Access-Control-Allow-Origin": "*"
+          },
+        "dest": "/server.js",
+        "methods": ["POST", "OPTIONS"]
+      },
+      {
+        "src": "/api/buildinfo",
+        "headers": {
+            "Access-Control-Allow-Origin": "*"
+          },
+        "dest": "/server.js",
+        "methods": ["POST", "OPTIONS"]
+      }
+    ]
+  }

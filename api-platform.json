@@ -1,0 +1,22 @@
+{
+    "TypeScript": {
+        "prefixPath": "/documentation/api",
+        "mainApp": "ej2-docs"
+    },
+    "JavaScript": {
+        "prefixPath": "/javascript/documentation/api",
+        "mainApp": "ej2-javascript-docs"
+    },
+    "Angular": {
+        "prefixPath": "/angular/documentation/api",
+        "mainApp": "ej2-angular-docs"
+    },
+    "React": {
+        "prefixPath": "/documentation/api",
+        "mainApp": "ej2-react-docs"
+    },
+    "Vue": {
+        "prefixPath": "/documentation/api",
+        "mainApp": "ej2-vue-docs"
+    }
+}

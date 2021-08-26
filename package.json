@@ -1,0 +1,21 @@
+{
+  "name": "ej2-Core-Team",
+  "version": "1.0.0",
+  "description": "Trigger all EJ2 components Jenkins CI build by using a single gulp task",
+  "author": "ajithr",
+  "license": "MIT",
+  "dependencies": {
+    "@shawn/jenkins-api": "*",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-mail": "^0.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemailer": "^6.4.2",
+    "shelljs": "^0.8.3",
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

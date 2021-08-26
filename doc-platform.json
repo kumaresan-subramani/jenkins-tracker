@@ -1,0 +1,34 @@
+{
+    "TypeScript": {
+        "prefixPath": "/documentation",
+        "mainApp" : "ej2-docs"
+    },
+    "JavaScript": {
+        "prefixPath": "/javascript/documentation",
+        "mainApp" : "ej2-javascript-docs"
+    },
+    "Angular": {
+        "prefixPath": "/angular/documentation",
+        "mainApp" : "ej2-angular-docs"
+    },
+    "React": {
+        "prefixPath": "/react/documentation",
+        "mainApp" : "ej2-react-docs"
+    },
+    "Vue": {
+        "prefixPath": "/vue/documentation",
+        "mainApp" : "ej2-vue-docs"
+    },
+    "ASP.NET Core": {
+        "prefixPath": "/aspnetcore/documentation",
+        "mainApp" : "ej2-aspcore-docs"
+    },
+    "ASP.NET MVC": {
+        "prefixPath": "/aspnetmvc/documentation",
+        "mainApp" : "ej2-aspmvc-docs"
+    },
+    "Blazor": {
+        "prefixPath": "/blazor/documentation",
+        "mainApp" : "ej2-razor-docs"
+    }
+}
